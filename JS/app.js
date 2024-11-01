@@ -22,3 +22,12 @@ const registerFeatuer = reg => {
         return false
     }
 }
+
+const getmeApi = api => {
+    if(api == 'OK'){
+        return true
+    }
+    else{
+        return false
+    }
+}
