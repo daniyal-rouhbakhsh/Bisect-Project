@@ -13,3 +13,12 @@ const isLogin = user => {
         return false
     }
 }
+
+const registerFeatuer = reg => {
+    if(reg){
+        return true
+    }
+    else{
+        return false
+    }
+}
