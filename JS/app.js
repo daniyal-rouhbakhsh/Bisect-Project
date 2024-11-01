@@ -31,3 +31,21 @@ const getmeApi = api => {
         return false
     }
 }
+
+const likePost = like => {
+    if(like){
+        return true
+    }
+    else{
+        return false
+    }
+}
+
+const disLike = dislike => {
+    if(dislike){
+        return false
+    }
+    else{
+        return true
+    }
+}
