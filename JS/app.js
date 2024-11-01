@@ -49,3 +49,12 @@ const disLike = dislike => {
         return true
     }
 }
+
+const userSearch = user => {
+    if(user){
+        return {userId:1,userName:"Daniyal",userJob:"BI Expert"}
+    }
+    else{
+        return "Permission Denied"
+    }
+}
